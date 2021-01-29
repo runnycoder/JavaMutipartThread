@@ -1,0 +1,347 @@
+本文件为PutTakeTest吞吐量测试的本机运行结果
+
+/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin/java -agentpath:/private/var/folders/hf/nh89t05n2wgc11c0ch6tcvg40000gn/T/libasyncProfiler.so=start,collapsed,threads,interval=1ms,framebuf=15000000,file=/private/var/folders/hf/nh89t05n2wgc11c0ch6tcvg40000gn/T/asyncprofiler.dump -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/tools.jar:/Users/runny/Documents/idea-workspace/JavaMutipartThread/out/production/JavaMutipartThread:/Users/runny/Documents/idea-workspace/JavaMutipartThread/lib/junit-4.12.jar:/Users/runny/Documents/idea-workspace/JavaMutipartThread/lib/hamcrest-core-1.3.jar com.icehan.thread.semaphore.PutTakeTest
+Capacity: 1
+Pairs: 1
+putSum=2101325050
+takeSum=2101325050
+Throughput: 10547 ns/item
+putSum=-33153886
+takeSum=-33153886
+Throughput: 10697 ns/item
+Pairs: 2
+putSum=-1722722611
+takeSum=-1722722611
+Throughput: 13986 ns/item
+putSum=51613798
+takeSum=51613798
+Throughput: 13796 ns/item
+Pairs: 4
+putSum=1628400200
+takeSum=1628400200
+Throughput: 14851 ns/item
+putSum=-293372886
+takeSum=-293372886
+Throughput: 16509 ns/item
+Pairs: 8
+putSum=2038874184
+takeSum=2038874184
+Throughput: 14885 ns/item
+putSum=1838962202
+takeSum=1838962202
+Throughput: 15770 ns/item
+Pairs: 16
+putSum=-2009892170
+takeSum=-2009892170
+Throughput: 15295 ns/item
+putSum=1113227870
+takeSum=1113227870
+Throughput: 14832 ns/item
+Pairs: 32
+putSum=-1453069853
+takeSum=-1453069853
+Throughput: 15732 ns/item
+putSum=-845795648
+takeSum=-845795648
+Throughput: 15622 ns/item
+Pairs: 64
+putSum=826476395
+takeSum=826476395
+Throughput: 16263 ns/item
+putSum=-1610984234
+takeSum=-1610984234
+Throughput: 16799 ns/item
+Pairs: 128
+putSum=338174768
+takeSum=338174768
+Throughput: 18403 ns/item
+putSum=-1535982469
+takeSum=-1535982469
+Throughput: 18690 ns/item
+Capacity: 10
+Pairs: 1
+putSum=924239685
+takeSum=924239685
+Throughput: 1200 ns/item
+putSum=-622166146
+takeSum=-622166146
+Throughput: 1185 ns/item
+Pairs: 2
+putSum=-892616448
+takeSum=-892616448
+Throughput: 1535 ns/item
+putSum=886054015
+takeSum=886054015
+Throughput: 1618 ns/item
+Pairs: 4
+putSum=-924318265
+takeSum=-924318265
+Throughput: 1787 ns/item
+putSum=-683345414
+takeSum=-683345414
+Throughput: 1720 ns/item
+Pairs: 8
+putSum=-889014569
+takeSum=-889014569
+Throughput: 1641 ns/item
+putSum=-1192295359
+takeSum=-1192295359
+Throughput: 1661 ns/item
+Pairs: 16
+putSum=-715383819
+takeSum=-715383819
+Throughput: 1627 ns/item
+putSum=675477877
+takeSum=675477877
+Throughput: 1712 ns/item
+Pairs: 32
+putSum=-916276743
+takeSum=-916276743
+Throughput: 1530 ns/item
+putSum=-628732988
+takeSum=-628732988
+Throughput: 1622 ns/item
+Pairs: 64
+putSum=2058796687
+takeSum=2058796687
+Throughput: 1696 ns/item
+putSum=1890595156
+takeSum=1890595156
+Throughput: 1613 ns/item
+Pairs: 128
+putSum=-1325447888
+takeSum=-1325447888
+Throughput: 1780 ns/item
+putSum=-799524066
+takeSum=-799524066
+Throughput: 1735 ns/item
+Capacity: 100
+Pairs: 1
+putSum=258859834
+takeSum=258859834
+Throughput: 371 ns/item
+putSum=1966059133
+takeSum=1966059133
+Throughput: 416 ns/item
+Pairs: 2
+putSum=1559989504
+takeSum=1559989504
+Throughput: 405 ns/item
+putSum=-1659322860
+takeSum=-1659322860
+Throughput: 413 ns/item
+Pairs: 4
+putSum=-1890160609
+takeSum=-1890160609
+Throughput: 472 ns/item
+putSum=-1889650478
+takeSum=-1889650478
+Throughput: 456 ns/item
+Pairs: 8
+putSum=-1153965213
+takeSum=-1153965213
+Throughput: 445 ns/item
+putSum=-725898316
+takeSum=-725898316
+Throughput: 466 ns/item
+Pairs: 16
+putSum=-311732869
+takeSum=-311732869
+Throughput: 430 ns/item
+putSum=423268163
+takeSum=423268163
+Throughput: 465 ns/item
+Pairs: 32
+putSum=-1635950577
+takeSum=-1635950577
+Throughput: 481 ns/item
+putSum=319634544
+takeSum=319634544
+Throughput: 492 ns/item
+Pairs: 64
+putSum=428055165
+takeSum=428055165
+Throughput: 522 ns/item
+putSum=963736662
+takeSum=963736662
+Throughput: 528 ns/item
+Pairs: 128
+putSum=-1829996702
+takeSum=-1829996702
+Throughput: 515 ns/item
+putSum=-1094243644
+takeSum=-1094243644
+Throughput: 509 ns/item
+Capacity: 1000
+Pairs: 1
+putSum=2138084595
+takeSum=2138084595
+Throughput: 296 ns/item
+putSum=-409314096
+takeSum=-409314096
+Throughput: 421 ns/item
+Pairs: 2
+putSum=176763409
+takeSum=176763409
+Throughput: 460 ns/item
+putSum=971346483
+takeSum=971346483
+Throughput: 450 ns/item
+Pairs: 4
+putSum=-627330237
+takeSum=-627330237
+Throughput: 414 ns/item
+putSum=1026849606
+takeSum=1026849606
+Throughput: 396 ns/item
+Pairs: 8
+putSum=467803264
+takeSum=467803264
+Throughput: 427 ns/item
+putSum=1941315609
+takeSum=1941315609
+Throughput: 413 ns/item
+Pairs: 16
+putSum=1137281214
+takeSum=1137281214
+Throughput: 415 ns/item
+putSum=-1910188263
+takeSum=-1910188263
+Throughput: 430 ns/item
+Pairs: 32
+putSum=1173511387
+takeSum=1173511387
+Throughput: 406 ns/item
+putSum=-1274407247
+takeSum=-1274407247
+Throughput: 391 ns/item
+Pairs: 64
+putSum=-1352096226
+takeSum=-1352096226
+Throughput: 412 ns/item
+putSum=-566718426
+takeSum=-566718426
+Throughput: 416 ns/item
+Pairs: 128
+putSum=1433148466
+takeSum=1433148466
+Throughput: 368 ns/item
+putSum=401217618
+takeSum=401217618
+Throughput: 365 ns/item
+Capacity: 10000
+Pairs: 1
+putSum=1828095638
+takeSum=1828095638
+Throughput: 404 ns/item
+putSum=-1931983001
+takeSum=-1931983001
+Throughput: 239 ns/item
+Pairs: 2
+putSum=87100125
+takeSum=87100125
+Throughput: 234 ns/item
+putSum=-67844609
+takeSum=-67844609
+Throughput: 403 ns/item
+Pairs: 4
+putSum=-149461926
+takeSum=-149461926
+Throughput: 407 ns/item
+putSum=-656088467
+takeSum=-656088467
+Throughput: 456 ns/item
+Pairs: 8
+putSum=111536725
+takeSum=111536725
+Throughput: 354 ns/item
+putSum=1428614198
+takeSum=1428614198
+Throughput: 415 ns/item
+Pairs: 16
+putSum=2145187163
+takeSum=2145187163
+Throughput: 393 ns/item
+putSum=-686801897
+takeSum=-686801897
+Throughput: 408 ns/item
+Pairs: 32
+putSum=1809006497
+takeSum=1809006497
+Throughput: 404 ns/item
+putSum=-1686992188
+takeSum=-1686992188
+Throughput: 383 ns/item
+Pairs: 64
+putSum=-519133769
+takeSum=-519133769
+Throughput: 378 ns/item
+putSum=-965976827
+takeSum=-965976827
+Throughput: 386 ns/item
+Pairs: 128
+putSum=-207929207
+takeSum=-207929207
+Throughput: 346 ns/item
+putSum=453563724
+takeSum=453563724
+Throughput: 355 ns/item
+Capacity: 100000
+Pairs: 1
+putSum=47372945
+takeSum=47372945
+Throughput: 426 ns/item
+putSum=246653798
+takeSum=246653798
+Throughput: 343 ns/item
+Pairs: 2
+putSum=1342343428
+takeSum=1342343428
+Throughput: 443 ns/item
+putSum=-334095586
+takeSum=-334095586
+Throughput: 443 ns/item
+Pairs: 4
+putSum=787941887
+takeSum=787941887
+Throughput: 449 ns/item
+putSum=287789528
+takeSum=287789528
+Throughput: 451 ns/item
+Pairs: 8
+putSum=-2028596777
+takeSum=-2028596777
+Throughput: 433 ns/item
+putSum=165257125
+takeSum=165257125
+Throughput: 432 ns/item
+Pairs: 16
+putSum=-1534810924
+takeSum=-1534810924
+Throughput: 430 ns/item
+putSum=1936781574
+takeSum=1936781574
+Throughput: 416 ns/item
+Pairs: 32
+putSum=-1836855135
+takeSum=-1836855135
+Throughput: 391 ns/item
+putSum=-908147864
+takeSum=-908147864
+Throughput: 407 ns/item
+Pairs: 64
+putSum=1704992734
+takeSum=1704992734
+Throughput: 387 ns/item
+putSum=-1448723264
+takeSum=-1448723264
+Throughput: 385 ns/item
+Pairs: 128
+putSum=508947748
+takeSum=508947748
+Throughput: 357 ns/item
+putSum=243184180
+takeSum=243184180
+Throughput: 349 ns/item
+
+Process finished with exit code 0
