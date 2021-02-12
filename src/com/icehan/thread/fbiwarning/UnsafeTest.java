@@ -214,7 +214,8 @@ public class UnsafeTest{
         Thread thread = new Thread(() -> {
             long start = System.nanoTime();
             System.out.println(Thread.currentThread().getName()+"in running~");
-            unsafe.park(false,3000000000L);//false是相对时间 单位纳秒
+            unsafe.park(false,0);//不加时间限制就一直等下去
+            //unsafe.park(false,3000000000L);//false是相对时间 单位纳秒
             //true是绝对时间单位毫秒
 //            unsafe.park(true, System.currentTimeMillis()+3000);
             System.out.println("main thread end cost times="+(System.nanoTime()-start)+"/ns");

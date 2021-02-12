@@ -1,8 +1,15 @@
 package com.icehan.thread.test1;
 
+import java.text.SimpleDateFormat;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class CountingFactorizer {
+
+    private static final ThreadLocal<SimpleDateFormat> dateFormat = ThreadLocal.withInitial(
+            ()->{return new SimpleDateFormat("yyyy-MM-dd");});
+
+    private static final ThreadLocal<Integer> nums = new ThreadLocal<>();
+
     private final AtomicLong count = new AtomicLong();
 
     public long getCount(){
